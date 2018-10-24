@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+<title>Javascript Quiz</title>
+</head>
+<body>
+ <div class="outer-div"><div class="inner-div">
+<h1><u>Fun Javascript Quiz</u></h1>
+<form id="quiz" name="quiz">
+ 
+
+<p><b>Do you like Javascript?</b></p>
+ <input id="textbox" type="text" name="question1">
+   
+ <p><b>Do you understand it?</b></p>   
+  <input type="radio" id="mc" name="question2" value="Fun quiz">Yes<br>
+  <input type="radio" id="mc" name="question2" value="Fun quiz">Maybe<br>
+ 
+  <p><b>Are you learning?</b></p>
+  <input type="radio" id="mc" name="question3" value="Fun quiz">Yes<br>
+  <input type="radio" id="mc" name="question3" value="Fun quiz">Maybe<br>
+  <div class="button" style="margin: 20px;">
+  <input id="button" type="button" value="I'm complete" onclick="check()">
+  </div>
+</form>
+
+<div id="after_submit">
+            <p id="message"><b>Thank you for your response!</b></p>
+            <p id="number_correct"></p>
+        </div>
+</div>
+</div>
+  <script type="text/javascript"  src = "main.js"></script>
+</body>
+</html>
